@@ -30,15 +30,15 @@ class HelpDYMGroup(DYMGroup):
         formatter.write("\n📙 Examples:\n\n")
 
         formatter.write(
-            click.style("composio --help", fg="green")
+            click.style("composio --help", fg="blue")
             + click.style("          # Display help information\n", fg="black")
         )
         formatter.write(
-            click.style("composio add github", fg="green")
+            click.style("composio add github", fg="blue")
             + click.style("      # Add an integration to your account\n", fg="black")
         )
         formatter.write(
-            click.style("composio login", fg="green")
+            click.style("composio login", fg="blue")
             + click.style("           # Log in to your Composio account\n", fg="black")
         )
 
